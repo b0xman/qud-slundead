@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+
+    <object Name="WizBig_Slurg" Inherits="BaseGyreWight">
+        <part Name="Description" Short="" />
+        <part Name="Render" DisplayName="Slurg" Tile="WizBig_Slundead/Slurg.png" ColorString="&amp;m" DetailColor="y" />
+
+
+    </object>
+
+
+  
+    <object Name="WizBig_Slundead" Inherits="SoupSludge">
+        <part Name="Description" Short="" />
+        <part Name="Render" DisplayName="Slurg" Tile="WizBig_Slundead/Slundead.png" ColorString="&amp;C" DetailColor="y" />
+        <part Name="Corpse" CorpseBlueprint="MediumBoulder" />
+
+    </object>
+
+
+
+</objects>

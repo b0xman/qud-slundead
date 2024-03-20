@@ -1,0 +1,20 @@
+<worlds>
+  <world Name="JoppaWorld" Load="Merge">
+
+
+    <cell Name="some name" Inherits="SaltDesertCell" 
+          ApplyTo="WizBig_Slundead_Workshop" 
+          Mutable="false" > <!--sets whether or not procgen functions here -->
+
+      <zone Level="10" x="1" y="1" Name="somename" ProperName="true">
+        <map FileName="WizBig_Slundead_Workshop.rpm"></map> <!-- put this map file in your mod folder -->
+        <builder Class="Music" Track="MehmetsMorning" Chance="100"></builder>
+        <builder Class="SaltDunes"></builder>
+      </zone> 
+      
+      <!-- more zones such as underground could be added here -->
+
+    </cell>
+
+  </world>
+</worlds>
